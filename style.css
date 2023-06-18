@@ -206,3 +206,34 @@ body{
         justify-content: space-around;
     }
 }
+
+.project h2 , .about h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+h3 .bx{
+    font-size: 100px;
+    text-align: center;
+    color: #00abf0;
+}
+
+.about p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.about .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.about .col > div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+

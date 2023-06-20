@@ -209,7 +209,7 @@ body{
 
 .project h2 , .about h2{
     text-align: center;
-    color: #ffffff;
+    color: rgb(170, 255, 0);
     font-weight: 900;
 }
 
@@ -235,5 +235,21 @@ h3 .bx{
 .about .col > div {
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.col .card{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
 

@@ -41,6 +41,7 @@ const initFormValidation = (formId, statusId, successMessage) => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const honeypot = form.querySelector('#website');
+    // Hidden honeypot fields should stay empty for legitimate users.
     if (honeypot && honeypot.value.trim()) {
       setStatus(status, 'Submission blocked. Please try again.', 'error');
       return;

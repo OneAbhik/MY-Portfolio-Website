@@ -640,15 +640,6 @@ main,
     padding-top: 7rem;
   }
 
-  .projects-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 1199.98px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (min-width: 992px) {
@@ -660,6 +651,12 @@ main,
   .navbar-nav {
     flex-direction: row;
     align-items: center;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
